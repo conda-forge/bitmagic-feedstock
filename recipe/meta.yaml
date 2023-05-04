@@ -1,5 +1,5 @@
 {% set name = "BitMagic" %}
-{% set version = "7.12.3" %}
+{% set version = "7.13.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://github.com/tlk00/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 5e59507a01a8295bb57aebcf557a4a25b992244736f7924300cdb9635f1b2780
+  sha256: 3a45e2f11396b09f963573af299d9ce03b6d100357d317c817cd91cca4ba84c4
 
 build:
-  number: 1
+  number: 0
 
 test:
   commands:
@@ -19,9 +19,9 @@ test:
 
 about:
   home: https://github.com/tlk00/BitMagic
-  summary: 'BitMagic is a general data science components library'
+  summary: BitMagic is a general data science components library
   description: BitMagic is a general data science components library
-  license: 'Apache-2.0'
+  license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
 
