@@ -8,9 +8,11 @@ package:
 source:
   url: https://github.com/tlk00/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
   sha256: 3a45e2f11396b09f963573af299d9ce03b6d100357d317c817cd91cca4ba84c4
+  patches:
+    - 0001-fixed-clang-compilation-issues.patch
 
 build:
-  number: 0
+  number: 1
 
 test:
   commands:
